@@ -1,0 +1,86 @@
+/* Formattazione dello sfondo */
+body{
+
+    background-image: url(background.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding: 10px 0;
+    
+    
+}
+
+/* Formattazione del blocco grigio */
+main{
+    
+    border: 15px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: lime;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Formattazione del blocco verde  */
+#block{
+    display: inline-block;
+    width: 750px;
+    height: 20px;
+    background-color: lime;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Display del propietario del monopattino */
+#title{
+   font-size: 150%; 
+}
+
+/* L'informazione scritto di ogni monopattino */
+#content{
+    
+    display: flex;
+    margin-left: 100px;
+    color: white;
+}
+
+
+/* Stato di carica del primo monopattino */
+#battery1{
+    display: flex;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 300px;
+    height: 10px;
+    background-color: orange;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Stato di carica dello secondo monopattino */
+#battery2{
+    display: flex;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 500px;
+    height: 10px;
+    background-color: lime;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Stato di carica del terzo monopattino */
+#battery3{
+    display: flex;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
