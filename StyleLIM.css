@@ -1,0 +1,80 @@
+/* Formattazione dello sfondo */
+body{
+
+    background-image: url(background.jpg);
+    background-size: cover;
+    width: 1000px;
+    padding: 10px 0;
+    margin: auto;
+    
+}
+
+/* Formattazione del blocco grigio */
+main{
+    padding-top: 30px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: lime;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+/* Formattazione del blocco verde  */
+header > span{
+    display: inline-block;
+    width: 750px;
+    height: 20px;
+    background-color: lime;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Formattazione di ogni sezione */
+section div{
+    display: flex;
+    color: white;
+    line-height: 20px;
+}
+
+section{
+    margin-left: 100px;
+    padding-bottom: 30px;
+    
+}
+
+/* Stato di carica del primo monopattino */
+#PrimoMonopattino > :last-child{
+    
+    border-radius: 10px;
+    width: 300px;
+    height: 10px;
+    background-color: orange;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Stato di carica dello secondo monopattino */
+#SecondoMonopattino > :last-child{
+    
+    border-radius: 10px;
+    width: 500px;
+    height: 10px;
+    background-color: lime;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Stato di carica del terzo monopattino */
+#TerzoMonopattino > :last-child{
+    
+    border-radius: 10px;
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    padding: 20px;
+    text-align: left;
+}
+
+
